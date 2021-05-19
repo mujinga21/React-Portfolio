@@ -9,7 +9,6 @@ import About from "./components/pages/About";
 import Project from "./components/pages/Project";
 import Footer from "./components/Footer";
 
-
 function App() {
   return (
     <Router>
