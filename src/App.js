@@ -8,6 +8,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Project from "./components/pages/Project";
 import Footer from "./components/Footer";
+import images from "./assets/profile";
 
 function App() {
   return (
