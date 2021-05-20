@@ -1,5 +1,8 @@
-import React from "react";
-import ControlledCarousel from 'react-bootstrap/ControlledCarousel';
+
+import Carousel from 'react-bootstrap/Carousel';
+import profile from './images/profile.jpg';
+import React, { useEffect, useState } from "react";
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -7,50 +10,55 @@ function ControlledCarousel() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <div id='homepage'>
+
+    <Carousel 
+    activeIndex={index}
+     onSelect={handleSelect}
+       interval={1000}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src={profile}
           alt="First slide"
         />
         <Carousel.Caption>
           <h3>Hello </h3>
-          <p>My name is Mujinga Williams</p>
+          <p>My Name Is Mujinga Williams</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src={profile}
           alt="Second slide"
         />
 
         <Carousel.Caption>
           <h3>Welcome</h3>
-          <p>To my Portfolio</p>
+          <p>To My Portfolio</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src={profile}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Thank you</h3>
+          <h3>Thank You</h3>
           <p>
-            For visiting my site
+            For Visiting My Site
           </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
-}
+};
 
-render(<ControlledCarousel />);
+export default ControlledCarousel;
 
 
