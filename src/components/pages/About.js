@@ -32,7 +32,7 @@ const About = () => {
     <br/>
     I have earn how to use the latest tech stacks such as HTML, CSS, Bootstrap, Node js, Express js, MySQL, Mongodb and React 
     <br/> My goal is to keep client satisfied and to exceed my employer expectations.
-    <col className='d-flex justify-content-center flex-wrap'>
+    <Col className='d-flex justify-content-center flex-wrap'>
       <div>
         <a href='#contact'>
           <button className='m-2' variant='outline-primary'>
@@ -64,7 +64,7 @@ const About = () => {
           <Button className='m-2' variant='outline-success'> linkedIn</Button>
         </a>
       </div>
-    </col>
+    </Col>
     </Row>
     </Col>
     </Row>

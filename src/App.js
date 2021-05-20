@@ -3,11 +3,12 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTab from "./components/Navbar/NavTab";
-import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Project from "./components/pages/Project";
 import Footer from "./components/Footer";
+
 
 
 function App() {

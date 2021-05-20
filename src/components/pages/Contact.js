@@ -1,5 +1,6 @@
 import React from "react";
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
@@ -9,7 +10,7 @@ const Contact = () => {
         <h1 className='pt-3 text-center font-details-b pb-3'>CONTACT</h1>
         <Jumbotron className='contact-jumbotron'>
         <Row>
-        <col className='d-flex justify-content-center flex-wrap'>
+        <Col className='d-flex justify-content-center flex-wrap'>
         <div className='m-2'>
         <a
         href='mailto:mujinga_9@hotmail.com'
@@ -33,7 +34,7 @@ const Contact = () => {
         <Button variant='outline-dabger' title='See My Projects Here'><i className='fa-envelope-square'></i>GitHub</Button>
         
         </a></div>
-        </col>
+        </Col>
         </Row>
  
 </Jumbotron>

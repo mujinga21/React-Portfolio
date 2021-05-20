@@ -2,19 +2,19 @@ import React from "react";
 import CardDeck from "react-bootstrap/CardDeck"
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import col from "react-bootstrap/Col";
+// import Row from "react-bootstrap/Row";
+// import col from "react-bootstrap/Col";
 import progressive from './images/progressive.png';
 import fitness from './images/fitness.png';
 import ecommerce from './images/ecommerce.png';
 import dayplan from './images/dayplan.png';
 import trippin from './images/trippin.png';
 import enlighten from './images/enlighten.png';
-
+import Container from 'react-bootstrap/Container';
 
 function Project() {
   return (
-   <container>
+   <Container>
      <CardDeck>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
@@ -146,8 +146,8 @@ function Project() {
       </Card.Footer>
   </Card>
 </CardDeck>
-   </container>
+   </Container>
   );
 }
 
-export default Card;
+export default Project;

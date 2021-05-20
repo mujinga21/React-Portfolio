@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
 import "./style.css";
-
+import {Link} from 'react-router-dom';
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function About() {
+function Mynav() {
   
   return (
 <div>
@@ -20,10 +20,10 @@ className='animate-navbar nav-theme justify-content-between'>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#project">Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link as={Link} to="/">Home</Nav.Link>
+      <Nav.Link as={Link} to="/about-me">About</Nav.Link>
+      <Nav.Link as={Link} to="/project">Projects</Nav.Link>
+      <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
       
     </Nav>
   </Navbar.Collapse>
@@ -36,4 +36,4 @@ className='animate-navbar nav-theme justify-content-between'>
   );
 }
 
-export default Navbar;
+export default Mynav;
