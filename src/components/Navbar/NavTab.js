@@ -1,10 +1,10 @@
 import React from "react";
-// import Navbar from 'react-bootstrap/Navbar';
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function About() {
   
   return (
 <div>
@@ -13,9 +13,9 @@ fixed='top'
 variant='dark'
 expand ='md'
 className='animate-navbar nav-theme justify-content-between'>
-  <div>
+  {/* <div>
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  </div>
+  </div> */}
   <div>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
