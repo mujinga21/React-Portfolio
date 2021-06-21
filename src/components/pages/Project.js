@@ -14,18 +14,20 @@ import Container from 'react-bootstrap/Container';
 
 function Project() {
   return (
+  
    <Container>
+     <br/>
      <CardDeck>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Progressive Budget</Card.Title>
-      <Image
+      <Image class = 'pic'
         className='profile justify-content-end'
         alt='profile'
         src={progressive}
         thumbnail
         fluid/>
+        
         <Card.Text>
         To help the user plan their expense, this app add income and withdraw expenses.
       </Card.Text>
@@ -38,10 +40,9 @@ function Project() {
   </Card>
 
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Day Planner</Card.Title>
-      <Image
+      <Image class= 'pic'
         className='profile justify-content-end'
         alt='profile'
         src={dayplan}
@@ -59,10 +60,9 @@ function Project() {
   </Card>
 
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>E-commerce</Card.Title>
-      <Image
+      <Image class = "pic"
         className='profile justify-content-end'
         alt='profile'
         src={ecommerce}
@@ -86,10 +86,9 @@ function Project() {
    
      <CardDeck>
      <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Fitness tracker</Card.Title>
-      <Image
+      <Image class= 'pic'
         className='profile justify-content-end'
         alt='profile'
         src={fitness}
@@ -106,10 +105,9 @@ function Project() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Day Trippin</Card.Title>
-      <Image
+      <Image class='pic'
         className='profile justify-content-end'
         alt='profile'
         src={trippin}
@@ -126,10 +124,10 @@ function Project() {
       </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    
     <Card.Body>
       <Card.Title>Enlighten Me</Card.Title>
-      <Image
+      <Image class= 'pic'
         className='profile justify-content-end'
         alt='profile'
         src={enlighten}
