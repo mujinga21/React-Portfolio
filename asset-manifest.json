@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.3a05b1e1.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.073c10ed.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.073c10ed.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.d042ac5d.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e20dffb3.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e20dffb3.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.8e19d3e9.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.8e19d3e9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -10,21 +10,21 @@
     "static/js/2.f95feeba.chunk.js.map": "/React-Portfolio/static/js/2.f95feeba.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3a05b1e1.chunk.css.map": "/React-Portfolio/static/css/main.3a05b1e1.chunk.css.map",
+    "static/css/main.d042ac5d.chunk.css.map": "/React-Portfolio/static/css/main.d042ac5d.chunk.css.map",
     "static/js/2.f95feeba.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.f95feeba.chunk.js.LICENSE.txt",
-    "static/media/dayplan.dca04574.png": "/React-Portfolio/static/media/dayplan.dca04574.png",
-    "static/media/ecommerce.5aa42ab4.png": "/React-Portfolio/static/media/ecommerce.5aa42ab4.png",
-    "static/media/enlighten.cb090235.png": "/React-Portfolio/static/media/enlighten.cb090235.png",
-    "static/media/fitness.56ba950b.png": "/React-Portfolio/static/media/fitness.56ba950b.png",
+    "static/media/dayplan.f1bd280f.png": "/React-Portfolio/static/media/dayplan.f1bd280f.png",
+    "static/media/ecommerce.9a41718e.png": "/React-Portfolio/static/media/ecommerce.9a41718e.png",
+    "static/media/enlighten.e5b765c6.png": "/React-Portfolio/static/media/enlighten.e5b765c6.png",
+    "static/media/fitness.4fcaa5eb.png": "/React-Portfolio/static/media/fitness.4fcaa5eb.png",
     "static/media/profile.1f3999df.jpg": "/React-Portfolio/static/media/profile.1f3999df.jpg",
-    "static/media/progressive.ae26762a.png": "/React-Portfolio/static/media/progressive.ae26762a.png",
-    "static/media/trippin.1a35ec9e.png": "/React-Portfolio/static/media/trippin.1a35ec9e.png"
+    "static/media/progressive.658ae0aa.png": "/React-Portfolio/static/media/progressive.658ae0aa.png",
+    "static/media/trippin.f2e57c7c.png": "/React-Portfolio/static/media/trippin.f2e57c7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8e19d3e9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.f95feeba.chunk.js",
-    "static/css/main.3a05b1e1.chunk.css",
-    "static/js/main.073c10ed.chunk.js"
+    "static/css/main.d042ac5d.chunk.css",
+    "static/js/main.e20dffb3.chunk.js"
   ]
 }
