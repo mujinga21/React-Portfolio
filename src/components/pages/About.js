@@ -27,11 +27,9 @@ const About = () => {
       </Row>
     </Col>
     <Col xs={12} md={6}>
-    <Row className=' align-items-start p-2 my details rounded'>Hello I am <strong>&nbsp;Mujinga Williams</strong>
-    <br/> I attended Georgia Tech for 12 weeks and completed a full stack web development boot camp.
-    <br/>
-    I have earn how to use the latest tech stacks such as HTML, CSS, Bootstrap, Node js, Express js, MySQL, Mongodb and React 
-    <br/> My goal is to keep client satisfied and to exceed my employer expectations.
+    <Row className=' align-items-start p-2 my details rounded'>Hello - I am <strong>&nbsp;Mujinga Williams!</strong>
+    <br/> I graduated from the Georgia Tech Full Stack Coding Boot Camp with hands-on experience in the latest technologies including HTML, CSS, Bootstrap, Node js, Express js, MySQL, Mongodb and React.    
+    <br/> My goal is to exceed the expectations of clients and teammates alike. 
     <Col className='d-flex justify-content-center flex-wrap'>
       <div>
         <a href='#contact'>
@@ -42,7 +40,7 @@ const About = () => {
       </div>
       <div>
         <a
-        href='https://drive.google.com/file/d/0BwC9q8M45jqMNjM4THdZMU5tVWFFTENPVzc4bTBJOHN3ZG1V/view?usp=sharing'
+        href='https://drive.google.com/file/d/1FyQ1lucsZq-XgRV_7imRYFT7QjUKWxzi/view?usp=sharing'
         target='_blank'
         rel='noopener noreferrer'>
           <Button className='m-2' variant='outline-success'> Resume</Button>
@@ -58,7 +56,7 @@ const About = () => {
       </div>
       <div>
         <a
-        href='linkedin.com/in/mujinga-williams-85163393'
+        href='https://www.linkedin.com/in/mujinga-williams-85183393'
         target='_blank'
         rel='noopener noreferrer'>
           <Button className='m-2' variant='outline-success'> linkedIn</Button>

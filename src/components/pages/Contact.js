@@ -13,7 +13,7 @@ const Contact = () => {
         <Col className='d-flex justify-content-center flex-wrap'>
         <div className='m-2'>
         <a
-        href='mailto:mujinga_9@hotmail.com'
+        href='mailto:mujinga.williams@gmail.com'
         target='_blank'
         rel='noopener noreferrer'>
         <Button variant='outline-dabger' title='mujinga.williams@gmail.com'><i className='fa-envelope-square'></i>Email</Button>
@@ -21,7 +21,7 @@ const Contact = () => {
         </a></div>
         <div className='m-2'>
         <a
-        href='linkedin.com/in/mujinga-williams-85163393'
+        href='https://www.linkedin.com/in/mujinga-williams-85183393'
         target='_blank'
         rel='noopener noreferrer'>
         <Button variant='outline-dabger' title='My LinkedIn'><i className='fa-envelope-square'></i>LinkedIn</Button>
