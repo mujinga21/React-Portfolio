@@ -154,9 +154,9 @@ button[disabled] {
   background-color: transparent;
   font-size: 1.1em;
 }
-.profile{
+/* .profile{
   max-width: 18em;
-}
+} */
 .contact-jumbotron{
   background-color: seashell;
   background-size: cover;
