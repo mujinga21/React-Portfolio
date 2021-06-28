@@ -22,14 +22,14 @@ function Project() {
     <Card.Body>
       
       <Card.Title>Progressive Budget</Card.Title>
-      <div id="pic">
-      <Image 
+      
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={progressive}
         thumbnail
         fluid/>
-        </div>
+      
         <Card.Text>
         To help the user plan their expense, this app add income and withdraw expenses.
       </Card.Text>
@@ -44,14 +44,12 @@ function Project() {
   <Card>
     <Card.Body>
       <Card.Title>Day Planner</Card.Title>
-      <div id= "pic">
-      <Image 
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={dayplan}
         thumbnail
         fluid/>
-        </div>
       <Card.Text>
        This App helps you plan your day by keeping your schedule available to you in an App. {' '}
       </Card.Text>
@@ -66,14 +64,13 @@ function Project() {
   <Card>
     <Card.Body>
       <Card.Title>E-commerce</Card.Title>
-      <div id = "pic">
-      <Image 
+      
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={ecommerce}
         thumbnail
         fluid/>
-        </div>
         <Card.Text>
         To help the user plan their expense, this app add income and withdraw expenses.
       </Card.Text>
@@ -94,14 +91,12 @@ function Project() {
      <Card>
     <Card.Body>
       <Card.Title>Fitness tracker</Card.Title>
-      <div  id= "pic">
-      <Image 
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={fitness}
         thumbnail
         fluid/>
-        </div>
         <Card.Text>
         This app will help you keep track of your work out.
       </Card.Text>
@@ -112,17 +107,17 @@ function Project() {
       </small>
     </Card.Footer>
   </Card>
+
   <Card>
     <Card.Body>
       <Card.Title>Day Trippin</Card.Title>
-      <div id="pic">
-      <Image 
+
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={trippin}
         thumbnail
         fluid/>
-        </div>
         <Card.Text>
         If you have no plan, this app will help you pick a national park and and restaurant near by.  
       </Card.Text>
@@ -137,14 +132,14 @@ function Project() {
     
     <Card.Body>
       <Card.Title>Enlighten Me</Card.Title>
-      <div id="pic">
-      <Image 
+    
+      <Image width="100" height="80"
         className='profile justify-content-end'
         alt='profile'
         src={enlighten}
         thumbnail
         fluid/>
-        </div>
+
         <Card.Text>
         Enlighten-Me helps you select an activity near you.  You can go solo or social with a group of friend.  You can share your experience with other members by posting in a blog on the page.
       </Card.Text>
