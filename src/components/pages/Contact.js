@@ -16,7 +16,7 @@ const Contact = () => {
         href='mailto:mujinga_9@hotmail.com'
         target='_blank'
         rel='noopener noreferrer'>
-        <Button variant='outline-dabger' title='mujinga_9@hotmail.com'><i className='fa-envelope-square'></i>Email</Button>
+        <Button variant='outline-dabger' title='mujinga.williams@gmail.com'><i className='fa-envelope-square'></i>Email</Button>
         
         </a></div>
         <div className='m-2'>
