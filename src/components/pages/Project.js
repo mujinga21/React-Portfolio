@@ -23,7 +23,7 @@ function Project() {
       
       <Card.Title>Progressive Budget</Card.Title>
       
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={progressive}
@@ -44,7 +44,7 @@ function Project() {
   <Card>
     <Card.Body>
       <Card.Title>Day Planner</Card.Title>
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={dayplan}
@@ -65,7 +65,7 @@ function Project() {
     <Card.Body>
       <Card.Title>E-commerce</Card.Title>
       
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={ecommerce}
@@ -91,7 +91,7 @@ function Project() {
      <Card>
     <Card.Body>
       <Card.Title>Fitness tracker</Card.Title>
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={fitness}
@@ -112,7 +112,7 @@ function Project() {
     <Card.Body>
       <Card.Title>Day Trippin</Card.Title>
 
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={trippin}
@@ -133,7 +133,7 @@ function Project() {
     <Card.Body>
       <Card.Title>Enlighten Me</Card.Title>
     
-      <Image width="100" height="80"
+      <Image width="200" height="100"
         className='profile justify-content-end'
         alt='profile'
         src={enlighten}
