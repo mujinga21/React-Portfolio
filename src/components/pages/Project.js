@@ -36,7 +36,11 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://ancient-fjord-06743.herokuapp.com/">Try it</a>
+      <a href="https://ancient-fjord-06743.herokuapp.com/"><strong>Deployed Link</strong></a>
+      </small>
+      <br/>
+      <small className="text-muted">
+      <a href="https://github.com/mujinga21/Budget-Tracker/"><strong>GitHub Link</strong></a>
       </small>
     </Card.Footer>
   </Card>
@@ -56,8 +60,13 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://fierce-cliffs-30189.herokuapp.com/">Let schedule</a>
+      <a href="https://fierce-cliffs-30189.herokuapp.com/"><strong>Deployed Link</strong></a>
       </small>
+      <br/>
+      <small className="text-muted">
+      <a href="https://github.com/mujinga21/Work-Planner/"><strong>GitHub Link</strong></a>
+      </small>
+
     </Card.Footer>
   </Card>
 
@@ -77,7 +86,7 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://github.com/mujinga21/E-Commerce.git">See it</a>
+      <a href="https://github.com/mujinga21/E-Commerce.git"><strong>GitHub Link</strong></a>
       </small>
     </Card.Footer>
   </Card>
@@ -103,7 +112,11 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://fierce-cliffs-30189.herokuapp.com/">see your workout plan</a>
+      <a href="https://fierce-cliffs-30189.herokuapp.com/"><strong>Deployed Link</strong></a>
+      </small>
+      <br/>
+      <small className="text-muted">
+      <a href="https://github.com/mujinga21/Workout-Tracker/"><strong>GitHub Link</strong></a>
       </small>
     </Card.Footer>
   </Card>
@@ -124,8 +137,13 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://github.com/Joydotcom/Project1">Try it</a>
+      <a href="https://mujinga21.github.io/Project1/"><strong>Deployed Link</strong></a>
       </small>
+      <br/>
+      <small className="text-muted">
+      <a href="https://github.com/mujinga21/Project1"><strong>Deployed Link</strong></a>
+      </small>
+
       </Card.Footer>
   </Card>
   <Card>
@@ -146,7 +164,11 @@ function Project() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <a href="https://fierce-spire-72565.herokuapp.com/">Try it</a>
+      <a href="https://fierce-spire-72565.herokuapp.com/"><strong>Deployed Link</strong></a>
+      </small>
+      <br/>
+      <small className="text-muted">
+      <a href="https://github.com/mujinga21/Enlighten-Me/"><strong>GitHub Link</strong></a>
       </small>
       </Card.Footer>
   </Card>

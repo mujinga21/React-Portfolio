@@ -30,6 +30,8 @@ const About = () => {
     <Row className=' align-items-start p-2 my details rounded'>Hello - I am <strong>&nbsp;Mujinga Williams!</strong>
     <br/> I graduated from the Georgia Tech Full Stack Coding Boot Camp with hands-on experience in the latest technologies including HTML, CSS, Bootstrap, Node js, Express js, MySQL, Mongodb and React.    
     <br/> My goal is to exceed the expectations of clients and teammates alike. 
+  
+    <br/>
     <Col className='d-flex justify-content-center flex-wrap'>
       <div>
         <a href='#contact'>
@@ -62,6 +64,7 @@ const About = () => {
           <Button className='m-2' variant='outline-success'> linkedIn</Button>
         </a>
       </div>
+      <br/><strong>&nbsp;Email : mujinga.williams@gmail.com</strong>
     </Col>
     </Row>
     </Col>
